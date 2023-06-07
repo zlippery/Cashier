@@ -47,7 +47,7 @@ Dengan ketentuan:
 ## III. FUNCTIONS
 Semua fungsi terdapat di dalam class Transaction
 - Atribut parameter: `<nama item>`, `<jumlah item>`, `<harga per item>`
-- Method `add_item`: Fungsi tambah item pesanan baru ke dictionary
+- Method `add_item`: Fungsi tambah item pesanan baru ke transaksi
 - Method `update_item_name`: Fungsi mengubah nama item pesanan
 - Method `update_item_qty`: Fungsi ini untuk mengubah jumlah item pesanan
 - Method `update_item_price`: Fungsi ini untuk mengubah harga item pesanan
