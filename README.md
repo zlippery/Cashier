@@ -69,5 +69,9 @@ Item: pasta gigi
 - Item: mi instan, qty: 5, harga 3000
 <img width="535" alt="Cashier_Test 4" src="https://github.com/zlippery/Cashier/assets/132915662/df7b768b-6e24-456c-8402-bda3cdb30242">
 
-## V. CONCLUSION
+## V. CONCLUSION/FUTURE WORK
 Super Cashier adalah program sederhana untuk mengelola transaksi pembelian barang. Customer dapat menambahkan item, mengubah nama item, jumlah, dan harga item, menghapus item, melakukan reset transaksi, melihat pesanan, dan menghitung total belanja. Setiap interaksi dengan transaksi akan ditampilkan melalui method yang ada di dalam modul "modul_edit". Setelah pengguna memilih menu "Total Price", akan ditampilkan item yang dibeli dan total yang harus dibayar. Program ini memberikan kemudahan dalam mengelola transaksi pembelian barang dengan interaksi yang jelas dan sederhana.
+
+Rekomendasi improvement untuk kedepannya:
+- Menerapkan Exception Handling, menggunakan blok try-except untuk menangkap error
+- Menambahkan Validasi Inputuntuk memastikan bahwa nilai yang dimasukkan oleh customer sesuai dengan ekspektasi fungsi
