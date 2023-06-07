@@ -7,9 +7,12 @@ Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. A
 REQUIREMENT ATAU OBJECTIVES
 
 Fungsi dalam sistem kasir self-service meliputi:
+
 Customer membuat ID transaksi customer: trnsct_123 = transaction()
+
 Customer menambahkan nama item, jumlah item, dan harga item yang dibeli: add_item([<nama item>, <jumlah item>, <harga per item>])
-Jika customer salah menambahkan item yang dibeli, customer bisa update:
+
+  Jika customer salah menambahkan item yang dibeli, customer bisa update:
 Nama item: update_item_name(<nama item>, <update nama item>)
 Jumlah item: update_item_qty(<nama_item>, <update jumlah item>)
 Harga item: update_item_price(<nama_item>, <update harga item>)
