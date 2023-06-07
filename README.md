@@ -1,16 +1,16 @@
 # Cashier
 
-LATAR BELAKANG
+## LATAR BELAKANG
 
 Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. Andi berencana untuk melakukan perbaikan proses bisnis dengan membuat sistem kasir self-service dimana customer bisa langsung memasukkan jenis item, jumlah item, dan harga item yang dibeli dan fitur-fitur lainnya. Selain itu, customer yang tidak berada di kota tersebut bisa membeli barang di supermarket Andi.
 
-REQUIREMENT ATAU OBJECTIVES
+## REQUIREMENT ATAU OBJECTIVES
 
 Fungsi dalam sistem kasir self-service meliputi:
+Customer membuat ID transaksi customer: `trnsct_123 = transaction()`
 
-Customer membuat ID transaksi customer: trnsct_123 = transaction()
-
-Customer menambahkan nama item, jumlah item, dan harga item yang dibeli: add_item([<nama item>, <jumlah item>, <harga per item>])
+Customer menambahkan nama item, jumlah item, dan harga item yang dibeli: 
+add_item([<nama item>, <jumlah item>, <harga per item>])
 
   Jika customer salah menambahkan item yang dibeli, customer bisa update:
 Nama item: update_item_name(<nama item>, <update nama item>)
