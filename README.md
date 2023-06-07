@@ -1,8 +1,8 @@
-# Cashier
+# Super Cashier
 
 ## I. LATAR BELAKANG
 
-Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. Andi berencana untuk melakukan perbaikan proses bisnis dengan membuat sistem kasir self-service dimana customer bisa langsung memasukkan jenis item, jumlah item, dan harga item yang dibeli dan fitur-fitur lainnya. Selain itu, customer yang tidak berada di kota tersebut bisa membeli barang di supermarket Andi.
+Andi adalah seorang pemilik supermarket besar di salah satu kota di Indonesia. Andi berencana untuk melakukan perbaikan proses bisnis dengan membuat program kasir self-service dimana customer bisa langsung memasukkan jenis item, jumlah item, dan harga item yang dibeli dan fitur-fitur lainnya. Selain itu, customer yang tidak berada di kota tersebut bisa membeli barang di supermarket Andi.
 
 ## II. REQUIREMENT ATAU OBJECTIVES
 
@@ -70,4 +70,4 @@ Item: pasta gigi
 <img width="535" alt="Cashier_Test 4" src="https://github.com/zlippery/Cashier/assets/132915662/df7b768b-6e24-456c-8402-bda3cdb30242">
 
 ## V. CONCLUSION
-Cashier adalah program sederhana untuk mengelola transaksi pembelian barang. Customer dapat menambahkan item, mengubah nama item, jumlah, dan harga item, menghapus item, melakukan reset transaksi, melihat pesanan, dan menghitung total belanja. Setiap interaksi dengan transaksi akan ditampilkan melalui method yang ada di dalam modul "modul_edit". Setelah pengguna memilih menu "Total Price", akan ditampilkan item yang dibeli dan total yang harus dibayar. Program ini memberikan kemudahan dalam mengelola transaksi pembelian barang dengan interaksi yang jelas dan sederhana.
+Super Cashier adalah program sederhana untuk mengelola transaksi pembelian barang. Customer dapat menambahkan item, mengubah nama item, jumlah, dan harga item, menghapus item, melakukan reset transaksi, melihat pesanan, dan menghitung total belanja. Setiap interaksi dengan transaksi akan ditampilkan melalui method yang ada di dalam modul "modul_edit". Setelah pengguna memilih menu "Total Price", akan ditampilkan item yang dibeli dan total yang harus dibayar. Program ini memberikan kemudahan dalam mengelola transaksi pembelian barang dengan interaksi yang jelas dan sederhana.
