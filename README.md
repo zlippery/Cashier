@@ -34,6 +34,7 @@ Dengan ketentuan:
 
 
 ### B. Alur program atau flowchart:
+<img width="483" alt="Flowchart" src="https://github.com/zlippery/Cashier/assets/132915662/4d5faf93-046f-45c5-a0fe-c100d7855489">
 
 ## III. FUNCTIONS
 Semua fungsi terdapat di dalam class Transaction
@@ -46,4 +47,24 @@ Semua fungsi terdapat di dalam class Transaction
 - Method `check_order`: Fungsi ini untuk mengecek daftar item pesanan yang sudah ditambahkan dan memanggil method show_transaction
 - Method `show_transaction`: Fungsi ini untuk menampilkan daftar seluruh item pesanan
 - Method `total_price`: Fungsi ini untuk menghitung total pesanan yang dibeli, total diskon, dan total bayar
+
+## IV. TEST CODE
+1. Customer menambah item `add_item`:
+- Item: ayam goreng, qty: 2, harga: 20000
+- Item: pasta gigi, qty: 3, harga 15000
+<img width="521" alt="Cashier_Test 1" src="https://github.com/zlippery/Cashier/assets/132915662/3e0cb4a8-3d26-406a-b2bc-456f7af3a025">
+
+2. Customer menghapus item `delete_item`
+Item: pasta gigi
+<img width="526" alt="Cashier_Test 2" src="https://github.com/zlippery/Cashier/assets/132915662/bdc11021-c81d-4aec-b4bb-ce1ed2fd76f2">
+
+3. Customer menghapus seluruh pesanan yang ditambahkan `reset_transaction`
+<img width="291" alt="Cashier_Test 3" src="https://github.com/zlippery/Cashier/assets/132915662/e38ce82a-6914-485b-b4ef-eebdaaaeee9d">
+
+4. Customer menghitung total pesanan `total_price`:
+- Item: ayam goreng, qty: 2, harga: 20000
+- Item: pasta gigi, qty: 3, harga 15000
+- Item: mainan mobil, qty: 1, harga 200000
+- Item: mi instan, qty: 5, harga 3000
+<img width="535" alt="Cashier_Test 4" src="https://github.com/zlippery/Cashier/assets/132915662/df7b768b-6e24-456c-8402-bda3cdb30242">
 
