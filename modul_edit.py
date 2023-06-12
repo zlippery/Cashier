@@ -103,11 +103,11 @@ class Transaction:
         Pesanan lebih dari Rp300.000, diskon 8%
         Pesanan lebih dari Rp500.000, diskon 10%
         '''
-        if self.total >= 500000:
+        if self.total > 500000:
             discount = 0.1
-        elif self.total >= 300000:
+        elif self.total > 300000:
             discount = 0.08
-        elif self.total >= 200000:
+        elif self.total > 200000:
             discount = 0.05
         else:
             discount = 0
